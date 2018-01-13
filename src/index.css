@@ -1,118 +1,19 @@
-body, html, #root {
-	width: 100%;
-	height: 100%;
-	font-size: 18px;
-}
-.wrapper {
-	min-height: 100%;
-	font-family: sans-serif;
-}
-.container {
-	
-}
-.app__header {
-	font-size: 1.5rem;
-	margin-bottom: 0.5em;
-	text-transform: uppercase;
-}
-.app {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0 auto;
-}
 .form {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-	flex-flow: row wrap;
-	font-size: 0.85rem;
-	color: #808080;
+  margin: 0;
 }
-.form__input {
-	font-size: 0.85rem;
-	padding: 0.5rem;
-	border-radius: 10px;
-	border: 1px solid #808080;
-    outline: none;
-}
-.form__input:focus {
-	border-color: #fbca0b;
-}
-.form__input::-webkit-input-placeholder {
-    font-size: 0.75rem;
-}
-.button {
-	padding: 0.5rem 2rem;
-	border-radius: 25px;
-	font-weight: bold;
-	background-color: #fbca0b;
-	color: #fff;
-	outline: none;
-	border: 1px solid #fbca0b;
-	text-transform: uppercase;
-	transition: all 0.2s ease-in;
-	cursor: pointer;
-	margin-left: 0.5rem;
-}
-.button:hover {
-	color: #fbca0b;
-	background-color: #fff;
-}
-.app__list {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-	list-style-type: none;
-	padding: 0;
-}
-.app__item {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 1.5em;
-	padding: 0.5rem;
-	border: 1px solid #808080;
-}
-.app__text {
-	font-size: 1.5rem;
+.task__text {
 	margin: 0;
-	user-select: none;
-	cursor: pointer;
-	transition: all .2s ease-in;
 }
-.app__text_completed {
-	color: red;
-	text-decoration: line-through;
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
 }
-.app__text_uncompleted {
-
-}
-.switch__button {
-	padding: 0.5rem 1rem;
-	font-size: 0.5rem;
-}
-.switch__button_close {
-
-}
-.switch__button_complete {
-
-}
-.completed {
-		
+.changetask-input {
+  border: none;
+  outline: none;
 }
